@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio website</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/5345fb36b7.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div id="header">
+        
+            <nav>
+                <img src="" class="logo">
+                <ul>
+                        <li class="list-items"><a href="#header">Home</a></li>
+                        <li class="list-items"><a href="#about">About</a></li>
+                       <li class="list-items"><a href="#project">Projects</a></li>
+                        <li class="list-items"><a href="#contact">contact</a></li>
+ 
+                </ul>
+            </nav>
+            <div class="header-text">
+              
+              <h1>Hi, I am <br><span> Aishwarya Kyasa</span></h1>
+                 <p class="description"> Software Developer, Machine learning Engineer</p>
+                 
+            </div>
+     
+    </div>
+   
+    <div id="about">
+        <div class="container">
+          <h1 class="subtitle">About Me</h1>
+            <div class="row">
+             
+                <div class="about-col-1">
+                    <div style="margin-top: 20px;">
+
+                      <figure class="wave">
+                        <img src="images/pic.png" alt="rajni"></img>
+                        <figcaption>Aishwarya</figcaption>
+                      </figure>
+                    
+                    
+                    </div>
+                </div>
+                <div class="about-col-2">
+                   
+                    <p>I am Kyasa Aishwarya, a passionate computer science engineering student residing in Karlskrona, Sweden. With a focus on back-end and front-end development, machine learning, artificial intelligence, software testing, and database management, I am eager to apply my theoretical knowledge and practical skills to contribute to impactful projects and create innovative solutions through technology. Currently conducting a thesis on "Knowledge graph creation and software testing" at IKEA. Open to entry-level opportunities.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills" >
+                        <ul>
+                            <li><span> Skill Set</span><br> C, C++, Python, Java, React.js, HTML5, CSS, Boot-
+                                strap, Javascript, SQL, node.js, Express.js, Vue.js, Linux, Numpy,
+                                MongoDB</li>
+                            <li><span>Technologies</span><br> Artificial Intelligence, Machine Learning,
+                                UI development, Microsoft Azure, Google Cloud Platform,
+                                Kubernetes, Docker, DevOps, Deep Learning</li>
+                            <li><span> Tools</span><br>  Figma, Github, Robo3T, understand tool, Jira,
+                                Confluence</li>
+                            <li> Computer Network, Database Management Systems, UML,
+                                   PHP, Data Structures, Operating Systems</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span> january 2023 – present</span><br>Master Thesis at IKEA <br>Performed a comparative analysis of RML and in-house ap-
+                                proach, utilizing software testing heuristics, resulting in a the-
+                                sis repor</li>
+                            <li><span>April 2021 – May 202</span><br> Broadcast and sound technicians at JNTUHCEH<br>Captured live performances using expertise in sound balancing
+                                and adjustment to produce high-quality recordings</li>
+                            <li><span> July 2021 – September 2021</span><br>  Robotics at Path Creators<br>Built a Bluetooth-controlled robot using Arduino technol-
+                                ogy, acquiring practical skills in electronics, programming, and
+                                teamwork, resulting in a 40% improvement in project quality.</li>
+                          
+                            
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span> 2022 - Present</span><br> Msaters In Computer Science at <br> Blekinge Institute of Technology</li>
+                            <li><span>2018 - 2022</span><br> Bachelors In Computer Science at <br>Jawaharlal Nehru Technological University
+                                </li>
+                            
+                                
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="project" class=" container h-100">
+        <h1 class="project-title">My Projects</h1>
+        <div class="row align-middle">
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-1">
+              <div class="txt">
+                <h1>Digital platform </br>
+      for adoption</h1>
+                <p>A web application using agile methodology</br>
+                  where users can adopt children </br>from different
+                  organizations.</p>
+              </div>
+              <a href="#">more</a>
+              <div class="ico-card">
+              <i class="fa fa-rebel"></i>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-2">
+              <div class="txt">
+                <h1>Credit Card  </br>
+                  Fraud Detection</h1>
+                <p> Implemented a model using Logistic Regression
+                  and Neural Networks which detects credit card
+                  usage fraud by considering input parameters with
+                  91% accuracy.</p>
+              </div>
+              <a href="#">more</a>
+            <div class="ico-card">
+              <i class="fa fa-codepen"></i>
+            </div>
+            </div>
+          </div>
+      
+          
+
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-1">
+              <div class="txt">
+                <h1>Movie Recommendation  </br>
+                  System</h1>
+                <p>Designed a movie recommendation system an
+                  ML-based approach to predicting the users’ film
+                  preferences based on their past choices and behavior.</p>
+              </div>
+              <a href="#">more</a>
+              <div class="ico-card">
+              <i class="fa fa-rebel"></i>
+            </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-3">
+              <div class="txt">
+                <h1>Text Classification </br></h1>
+                <p> Build a Machine learning model used to classify
+                  text messages as either spam or not.</p>
+              </div>
+              <a href="#">more</a>
+            <div class="ico-card">
+              <i class="fa fa-empire"></i>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-2">
+              <div class="txt">
+                <h1>Simon Game</br></h1>
+                <p>Developed Simon Game. The object of the game
+                  is to repeat a series of random tile clicks created
+                  by the game.</p>
+              </div>
+              <a href="#">more</a>
+            <div class="ico-card">
+              <i class="fa fa-codepen"></i>
+            </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 column">
+            <div class="card gr-3">
+              <div class="txt">
+                <h1>Netflix Clone </br></h1>
+                <p>Built a Netflix-like streaming application using
+                  the React.js framewore.</p>
+              </div>
+              <a href="#">more</a>
+            <div class="ico-card">
+              <i class="fa fa-empire"></i>
+            </div>
+            </div>
+          </div>
+          
+
+        </div>
+      </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="subtitle">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i>aishk2201@gmail.com</p>
+                    <p><i class="fas fa-phone-square-alt"></i>+46 761769416</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-instagram-square"></i></a>
+                        <a href="https://github.com/aishwaryakyasa"><i class="fab fa-github-square"></i></a>
+                        <a href="https://www.linkedin.com/in/aishwarya-kyasa-421662213/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Aishwarya_kyasa_resume.pdf" download class="btn btn-outline-info btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form method="post" action="mailto:aishk2201@gmail.com">
+                        <input type="text" name="Name" placeholder="Your name" required>
+                        <input type="email" name="email" placeholder="Your email" required>
+                        <textarea name="message" rows="4" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn-outline-info btn2">Submit</button>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright <i class="far fa-copyright"></i> Aishwarya<i class="fas fa-heart"></i></p>
+        </div>
+    </div>
+      
+<script>
+    var tablinks=document.getElementsByClassName("tab-links");
+    var tabcontents=document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>    
+
+ 
+
+</body>
+</html>
